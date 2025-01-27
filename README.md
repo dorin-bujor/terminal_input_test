@@ -53,29 +53,42 @@ Use a `List<Task>` to store all tasks. Implement a **menu-driven console applica
 5. Exit
 
 Enter your choice: 1
+
 Enter task description: Buy groceries
+
 Task added successfully!
 
 Enter your choice: 2
+
 Tasks:
+
 [ID: 1] Description: Buy groceries - Completed: false
 
 Enter your choice: 3
+
 Enter task ID to mark as complete: 1
+
 Task marked as completed!
 
 Enter your choice: 2
+
 Tasks:
+
 [ID: 1] Description: Buy groceries - Completed: true
 
 Enter your choice: 4
+
 Enter task ID to delete: 1
+
 Task deleted successfully!
 
 Enter your choice: 2
+
 Tasks:
+
 No tasks found.
 
 Enter your choice: 5
+
 Exiting the program. Goodbye!
 
