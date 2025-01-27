@@ -42,3 +42,40 @@ Use a `List<Task>` to store all tasks. Implement a **menu-driven console applica
 - Handle invalid input gracefully (e.g., display an error message and prompt the user again).
 
 ---
+
+### 4. Sample Output
+
+=== Task Management System ===
+1. Add Task
+2. View All Tasks
+3. Mark Task as Complete
+4. Delete Task
+5. Exit
+
+Enter your choice: 1
+Enter task description: Buy groceries
+Task added successfully!
+
+Enter your choice: 2
+Tasks:
+[ID: 1] Description: Buy groceries - Completed: false
+
+Enter your choice: 3
+Enter task ID to mark as complete: 1
+Task marked as completed!
+
+Enter your choice: 2
+Tasks:
+[ID: 1] Description: Buy groceries - Completed: true
+
+Enter your choice: 4
+Enter task ID to delete: 1
+Task deleted successfully!
+
+Enter your choice: 2
+Tasks:
+No tasks found.
+
+Enter your choice: 5
+Exiting the program. Goodbye!
+
